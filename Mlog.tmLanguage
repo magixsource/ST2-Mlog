@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>mlog</string>
+	</array>
+	<key>name</key>
+	<string>Mlog</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Fixed keyword</string>
+			<key>match</key>
+			<string>\Fixed</string>
+			<key>name</key>
+			<string>keyword.mlog</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Delay keyword</string>
+			<key>match</key>
+			<string>\Delay</string>
+			<key>name</key>
+			<string>comment.mlog</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Refused keyword</string>
+			<key>match</key>
+			<string>\Refused</string>
+			<key>name</key>
+			<string>invalid.mlog</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.mlog</string>
+	<key>uuid</key>
+	<string>f9bd1645-6dab-48b8-ae3d-5a30437f1316</string>
+</dict>
+</plist>

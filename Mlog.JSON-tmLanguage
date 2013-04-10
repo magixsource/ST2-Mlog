@@ -1,0 +1,19 @@
+{ "name": "Mlog",
+  "scopeName": "source.mlog",
+  "fileTypes": ["mlog"],
+  "patterns": [
+  {  "name": "keyword.mlog",
+     "match": "\\Fixed",
+     "comment":"Fixed keyword"
+  },
+  {  "name": "comment.mlog",
+     "match": "\\Delay",
+     "comment":"Delay keyword"
+  },
+  {  "name": "invalid.mlog",
+     "match": "\\Refused",
+     "comment":"Refused keyword"
+  }
+  ],
+  "uuid": "f9bd1645-6dab-48b8-ae3d-5a30437f1316"
+}
