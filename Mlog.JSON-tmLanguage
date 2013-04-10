@@ -3,16 +3,28 @@
   "fileTypes": ["mlog"],
   "patterns": [
   {  "name": "keyword.mlog",
-     "match": "\\Fixed",
+     "match": "(((f|F)ixed).*$\\n?)",
      "comment":"Fixed keyword"
   },
   {  "name": "comment.mlog",
-     "match": "\\Delay",
+     "match": "(((d|D)elay).*$\\n?)",
      "comment":"Delay keyword"
   },
   {  "name": "invalid.mlog",
-     "match": "\\Refused",
+     "match": "(((r|R)efused).*$\\n?)",
      "comment":"Refused keyword"
+  },
+  {  "name": "keyword.mlog",
+     "match": "\\*\\*\\s*TODO\\s*"
+  },
+  {  "name": "keyword.mlog",
+     "match": "\\*\\*\\s*NEXT\\s*"
+  },
+  {  "name": "keyword.mlog",
+     "match": "\\*\\*\\s*WORK\\s*"
+  },
+  {  "name": "keyword.mlog",
+     "match": "\\*\\*\\s*DONE\\s*"
   }
   ],
   "uuid": "f9bd1645-6dab-48b8-ae3d-5a30437f1316"

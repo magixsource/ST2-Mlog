@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+** DONE ${1: what time ? }  ${2:what done?}.
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<tabTrigger>done</tabTrigger>
+	<scope>source.mlog</scope>
+</snippet>

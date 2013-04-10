@@ -14,7 +14,7 @@
 			<key>comment</key>
 			<string>Fixed keyword</string>
 			<key>match</key>
-			<string>\Fixed</string>
+			<string>(((f|F)ixed).*$\n?)</string>
 			<key>name</key>
 			<string>keyword.mlog</string>
 		</dict>
@@ -22,7 +22,7 @@
 			<key>comment</key>
 			<string>Delay keyword</string>
 			<key>match</key>
-			<string>\Delay</string>
+			<string>(((d|D)elay).*$\n?)</string>
 			<key>name</key>
 			<string>comment.mlog</string>
 		</dict>
@@ -30,9 +30,33 @@
 			<key>comment</key>
 			<string>Refused keyword</string>
 			<key>match</key>
-			<string>\Refused</string>
+			<string>(((r|R)efused).*$\n?)</string>
 			<key>name</key>
 			<string>invalid.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\*\*\s*TODO\s*</string>
+			<key>name</key>
+			<string>keyword.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\*\*\s*NEXT\s*</string>
+			<key>name</key>
+			<string>keyword.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\*\*\s*WORK\s*</string>
+			<key>name</key>
+			<string>keyword.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\*\*\s*DONE\s*</string>
+			<key>name</key>
+			<string>keyword.mlog</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
