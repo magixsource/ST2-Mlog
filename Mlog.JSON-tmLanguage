@@ -2,29 +2,33 @@
   "scopeName": "source.mlog",
   "fileTypes": ["mlog"],
   "patterns": [
-  {  "name": "keyword.mlog",
-     "match": "(((f|F)ixed).*$\\n?)",
-     "comment":"Fixed keyword"
+  {  "name": "meta.fixed.mlog",
+     "match": "(((f|F)ixed).\\s*)"
   },
-  {  "name": "comment.mlog",
-     "match": "(((d|D)elay).*$\\n?)",
-     "comment":"Delay keyword"
+  {  "name": "meta.delay.mlog",
+     "match": "(((d|D)elay).\\s*)"
   },
-  {  "name": "invalid.mlog",
-     "match": "(((r|R)efused).*$\\n?)",
-     "comment":"Refused keyword"
+  {  "name": "meta.refused.mlog",
+     "match": "(((r|R)efused).\\s*)"
   },
-  {  "name": "keyword.mlog",
+  {  "name": "meta.todo.mlog",
      "match": "\\*\\*\\s*TODO\\s*"
   },
-  {  "name": "keyword.mlog",
+  {  "name": "meta.next.mlog",
      "match": "\\*\\*\\s*NEXT\\s*"
   },
-  {  "name": "keyword.mlog",
+  {  "name": "meta.work.mlog",
      "match": "\\*\\*\\s*WORK\\s*"
   },
-  {  "name": "keyword.mlog",
+  {  "name": "meta.done.mlog",
      "match": "\\*\\*\\s*DONE\\s*"
+  },
+  {  "name": "meta.comment.mlog",
+     "match": "\\s*((//).*$\n?)"
+  },
+  {  "name": "meta.comment.mlog",
+     "begin":"\/\\*",
+     "end":"\\*/"
   }
   ],
   "uuid": "f9bd1645-6dab-48b8-ae3d-5a30437f1316"

@@ -11,52 +11,61 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>comment</key>
-			<string>Fixed keyword</string>
 			<key>match</key>
-			<string>(((f|F)ixed).*$\n?)</string>
+			<string>(((f|F)ixed).\s*)</string>
 			<key>name</key>
-			<string>keyword.mlog</string>
+			<string>meta.fixed.mlog</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>Delay keyword</string>
 			<key>match</key>
-			<string>(((d|D)elay).*$\n?)</string>
+			<string>(((d|D)elay).\s*)</string>
 			<key>name</key>
-			<string>comment.mlog</string>
+			<string>meta.delay.mlog</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>Refused keyword</string>
 			<key>match</key>
-			<string>(((r|R)efused).*$\n?)</string>
+			<string>(((r|R)efused).\s*)</string>
 			<key>name</key>
-			<string>invalid.mlog</string>
+			<string>meta.refused.mlog</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\*\*\s*TODO\s*</string>
 			<key>name</key>
-			<string>keyword.mlog</string>
+			<string>meta.todo.mlog</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\*\*\s*NEXT\s*</string>
 			<key>name</key>
-			<string>keyword.mlog</string>
+			<string>meta.next.mlog</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\*\*\s*WORK\s*</string>
 			<key>name</key>
-			<string>keyword.mlog</string>
+			<string>meta.work.mlog</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\*\*\s*DONE\s*</string>
 			<key>name</key>
-			<string>keyword.mlog</string>
+			<string>meta.done.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\s*((//).*$
+?)</string>
+			<key>name</key>
+			<string>meta.comment.mlog</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>meta.comment.mlog</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

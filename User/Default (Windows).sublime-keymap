@@ -1,0 +1,10 @@
+[
+{"keys":["ctrl+shift+d"],"command":"add_date_time_stamp"},
+{"keys":["ctrl+d"],"command":"add_date_stamp"},
+{"keys":["ctrl+shift+t"],"command":"add_time_stamp"},
+{"keys":["alt+1"],"command":"translate_state_todo"},
+{"keys":["alt+2"],"command":"translate_state_next"},
+{"keys":["alt+3"],"command":"translate_state_work"},
+{"keys":["alt+4"],"command":"translate_state_done"},
+{"keys":["alt+5"],"command":"translate_state_open"}
+]
