@@ -67,6 +67,77 @@
 			<key>name</key>
 			<string>meta.comment.mlog</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\s*(\#(10|INVERSE)).*$
+?)</string>
+			<key>name</key>
+			<string>meta.level10.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\s*(\#(9|ERROR)).*$
+?)</string>
+			<key>name</key>
+			<string>meta.level9.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\s*(\#(8|INFO)).*$
+?)</string>
+			<key>name</key>
+			<string>meta.level8.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\s*(\#7).*$
+?)</string>
+			<key>name</key>
+			<string>meta.level7.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\s*(\#(6|IMPORTANT)).*$
+?)</string>
+			<key>name</key>
+			<string>meta.level6.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\s*(\#5).*$
+?)</string>
+			<key>name</key>
+			<string>meta.level5.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\s*(\#(4|WARNING)).*$
+?)</string>
+			<key>name</key>
+			<string>meta.level4.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\s*(\#3).*$
+?)</string>
+			<key>name</key>
+			<string>meta.level3.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\s*(\#(2|SUCCESS)).*$
+?)</string>
+			<key>name</key>
+			<string>meta.level2.mlog</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\s*(\#\d).*$
+?)|(\s*(\#DEFAULT).*$
+?)</string>
+			<key>name</key>
+			<string>meta.level1.mlog</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.mlog</string>

@@ -776,6 +776,136 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>MLog: LEVEL1</string>
+			<key>scope</key>
+			<string>meta.level1</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#494949</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MLog: LEVEL2</string>
+			<key>scope</key>
+			<string>meta.level2</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#80FF80</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MLog: LEVEL3</string>
+			<key>scope</key>
+			<string>meta.level3</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#F9EE98</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MLog: LEVEL4</string>
+			<key>scope</key>
+			<string>meta.level4</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#A96A06</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MLog: LEVEL5</string>
+			<key>scope</key>
+			<string>meta.level5</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#E18964</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MLog: LEVEL6</string>
+			<key>scope</key>
+			<string>meta.level6</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#74052A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MLog: LEVEL7</string>
+			<key>scope</key>
+			<string>meta.level7</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#D972DE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MLog: LEVEL8</string>
+			<key>scope</key>
+			<string>meta.level8</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#45C1EA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MLog: LEVEL9</string>
+			<key>scope</key>
+			<string>meta.level9</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#FF6A4B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>MLog: LEVEL10</string>
+			<key>scope</key>
+			<string>meta.level10</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>foreground</key>
+				<string>#751012</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Log Entry</string>
 			<key>scope</key>
 			<string>meta.line.entry.logfile, meta.line.exit.logfile</string>

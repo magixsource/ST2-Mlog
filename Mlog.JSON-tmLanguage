@@ -29,6 +29,36 @@
   {  "name": "meta.comment.mlog",
      "begin":"\/\\*",
      "end":"\\*/"
+  },
+  {  "name": "meta.level10.mlog",
+     "match": "(\\s*(\\#(10|INVERSE)).*$\n?)"
+  },
+  {  "name": "meta.level9.mlog",
+     "match": "(\\s*(\\#(9|ERROR)).*$\n?)"
+  },
+  {  "name": "meta.level8.mlog",
+     "match": "(\\s*(\\#(8|INFO)).*$\n?)"
+  },
+  {  "name": "meta.level7.mlog",
+     "match": "(\\s*(\\#7).*$\n?)"
+  },
+  {  "name": "meta.level6.mlog",
+     "match": "(\\s*(\\#(6|IMPORTANT)).*$\n?)"
+  },
+  {  "name": "meta.level5.mlog",
+     "match": "(\\s*(\\#5).*$\n?)"
+  },
+  {  "name": "meta.level4.mlog",
+     "match": "(\\s*(\\#(4|WARNING)).*$\n?)"
+  },
+  {  "name": "meta.level3.mlog",
+     "match": "(\\s*(\\#3).*$\n?)"
+  },
+  {  "name": "meta.level2.mlog",
+     "match": "(\\s*(\\#(2|SUCCESS)).*$\n?)"
+  },
+  {  "name": "meta.level1.mlog",
+     "match": "(\\s*(\\#\\d).*$\n?)|(\\s*(\\#DEFAULT).*$\n?)"
   }
   ],
   "uuid": "f9bd1645-6dab-48b8-ae3d-5a30437f1316"
