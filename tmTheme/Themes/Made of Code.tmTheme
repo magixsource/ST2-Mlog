@@ -776,6 +776,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>MLog: USERNAME</string>
+			<key>scope</key>
+			<string>meta.username</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> italic</string>
+				<key>background</key>
+				<string>#00184F</string>
+				<key>foreground</key>
+				<string>#8FFF81</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>MLog: LEVEL1</string>
 			<key>scope</key>
 			<string>meta.level1</string>

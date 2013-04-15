@@ -30,6 +30,10 @@
      "begin":"\/\\*",
      "end":"\\*/"
   },
+  {  "name": "meta.username.mlog",
+     "begin":"\\s*(\\@)",
+     "end": "\\s"
+  },
   {  "name": "meta.level10.mlog",
      "match": "(\\s*(\\#(10|INVERSE)).*$\n?)"
   },

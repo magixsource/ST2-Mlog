@@ -68,6 +68,14 @@
 			<string>meta.comment.mlog</string>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>\s*(\@)</string>
+			<key>end</key>
+			<string>\s</string>
+			<key>name</key>
+			<string>meta.username.mlog</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>(\s*(\#(10|INVERSE)).*$
 ?)</string>
