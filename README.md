@@ -48,7 +48,7 @@ English
 =
 中文
 -
-个人事务领域
+### 个人事务领域 ###
 
 | Snippet | 应用场景                   | 快速录入  | 快捷键 | 默认内容                        |
 |---------|----------------------------|-----------|--------|---------------------------------|
@@ -59,7 +59,7 @@ English
 
 
 
-软件开发领域
+### 软件开发领域 ###
 
 | Snippet | 应用场景                    | 快速录入   | 快捷键 | 默认内容                                   |
 |---------|-----------------------------|------------|--------|--------------------------------------------|
@@ -67,12 +67,33 @@ English
 | Fixed   | 标识BUG已被开发人员修复     | fx,Fixed   |        | /* bug number */,Fixed /* your commit */   |
 | Refused | 标识BUG已被开发人员拒绝     | rf,Refused |        | /* bug number */,Refused /* your commit */ |
 
+### 紧要级别 ###
+
+| Snippet    | 应用场景                                 | 快速录入      | 快捷键 | 默认内容        |
+|------------|------------------------------------------|---------------|--------|-----------------|
+| #DEFAULT   | 标识事项为默认级别                       | df,Defalt     |        | #DEFAULT this   |
+| #SUCCESS   | 标识事项为成功级别                       | sc,Success    |        | #SUCCESS this   |
+| #WARNING   | 标识事项为注意级别                       | wn,Warning    |        | #WARNING this   |
+| #IMPORTANT | 标识事项为重要级别                       | ipt,Important |        | #IMPORTANT this |
+| #INFO      | 标识事项为通知级别                       | if,Info       |        | #INFO this      |
+| #ERROR     | 标识事项为错误级别                       | er,Error      |        | #ERROR this     |
+| #INVERSE   | 标识事项为反转级别(可以自定义为特定级别) | iv,Inverse    |        | #INVERSE this   |
+| #1         | 标识事项为一级紧要级别                   | l1            |        | #1              |
+| #2         | 标识事项为二级紧要级别                   | l2            |        | #2              |
+| #3         | 标识事项为三级紧要级别                   | l3            |        | #3              |
+| #4         | 标识事项为四级紧要级别                   | l4            |        | #4              |
+| #5         | 标识事项为五级紧要级别                   | l5            |        | #5              |
+| #6         | 标识事项为六级紧要级别                   | l1            |        | #6              |
+| #7         | 标识事项为七级紧要级别                   | l2            |        | #7              |
+| #8         | 标识事项为八级紧要级别                   | l3            |        | #8              |
+| #9         | 标识事项为九级紧要级别                   | l4            |        | #9              |
+| #10        | 标识事项为十级紧要级别                   | l10           |        | #10             |
 
 
 English
 -
 
-Personal Bussiness domain
+### Personal Bussiness domain ###
 
 | Snippet | Aim                                              | Hot word  | Hot key | Default content                 |
 |---------|--------------------------------------------------|-----------|---------|---------------------------------|
@@ -82,10 +103,32 @@ Personal Bussiness domain
 | DONE    | mark this item has finished                      | done,DONE |         | ** DONE,what time ?,what done?. |
 
 
-Software development domain
+### Software development domain ###
 
 | Snippet | Aim                                      | Hot word   | Hot key | Default content                            |
 |---------|------------------------------------------|------------|---------|--------------------------------------------|
 | Delay   | mark this BUG is blocked,should be delay | dl,Delay   |         | /* bug number */,Delay /* your commit */   |
 | Fixed   | mark this BUG has fixed                  | fx,Fixed   |         | /* bug number */,Fixed /* your commit */   |
 | Refused | mark this BUG has refused by developer   | rf,Refused |         | /* bug number */,Refused /* your commit */ |
+
+### Warning level domain ###
+
+| Snippet    | Aim                                          | Hot word      | Hot key | Default content |
+|------------|----------------------------------------------|---------------|---------|-----------------|
+| #DEFAULT   | Mark this item as default warning level item | df,Defalt     |         | #DEFAULT this   |
+| #SUCCESS   | Mark this item as success level item         | sc,Success    |         | #SUCCESS this   |
+| #WARNING   | Mark this item as warning level item         | wn,Warning    |         | #WARNING this   |
+| #IMPORTANT | Mark this item as important level item       | ipt,Important |         | #IMPORTANT this |
+| #INFO      | Mark this item as info level item            | if,Info       |         | #INFO this      |
+| #ERROR     | Mark this item as error level item           | er,Error      |         | #ERROR this     |
+| #INVERSE   | Mark this item as inverse level item         | iv,Inverse    |         | #INVERSE this   |
+| #1         | Mark this item as level one warning item     | l1            |         | #1              |
+| #2         | Mark this item as level two warning item     | l2            |         | #2              |
+| #3         | Mark this item as level three warning item   | l3            |         | #3              |
+| #4         | Mark this item as level four warning item    | l4            |         | #4              |
+| #5         | Mark this item as level five warning item    | l5            |         | #5              |
+| #6         | Mark this item as level six warning item     | l6            |         | #6              |
+| #7         | Mark this item as level seven warning item   | l7            |         | #7              |
+| #8         | Mark this item as level eight warning item   | l8            |         | #8              |
+| #9         | Mark this item as level night warning item   | l9            |         | #9              |
+| #10        | Mark this item as level ten warning item     | l10           |         | #10             |
