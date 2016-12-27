@@ -90,6 +90,29 @@ English
 | #10        | 标识事项为十级紧要级别                   | l10           |        | #10             |
 
 
+### 快捷键 ###
+
+
+| 快捷键       | 说明                                            |
+|--------------|-------------------------------------------------|
+| ctrl+shift+d | 快速录入完整日期时间戳到mlog(%Y-%m-%d %H:%M:%S) |
+| ctrl+d       | 快速录入日期时间戳到mlog(%Y-%m-%d %H:%M)        |
+| ctrl+shift+t | 快速录入时间戳到mlog(%H:%M:%S)                  |
+| alt+1        | 将事项转为todo状态                              |
+| alt+2        | 将事项转为next状态                              |
+| alt+3        | 将事项转为work状态                              |
+| alt+4        | 将事项转为done状态                              |
+| alt+5        | 将事项转为reopen状态，BUG修复后被打开时使用     |
+
+### 其他 ###
+
+ Snippet | 应用场景                                                                                                             | 快速录入 | 快捷键 | 默认内容                                                                                                                                                                                                                                                                                 |
+|---------|----------------------------------------------------------------------------------------------------------------------|----------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| INIT    | MLOG记录创建时，作为记录注释使用，提供文档说明、类别、作者、链接、版本号等语义化条目。方便后期人为或机器维护和存档。 | init     |        | /**   *----------------------------------------//   * mlog description   *----------------------------------------//   *@category,mlogcategory[Study,Work,School,Family...]   *@author,mlog author,who write this log   *@link,contact   *@version,mlog version   *@stamp,what time? **/ |
+
+
+
+
 English
 -
 
@@ -132,3 +155,24 @@ English
 | #8         | Mark this item as level eight warning item   | l8            |         | #8              |
 | #9         | Mark this item as level night warning item   | l9            |         | #9              |
 | #10        | Mark this item as level ten warning item     | l10           |         | #10             |
+
+
+### Hot Keys ###
+
+| Keys         | Aim                                           |
+|--------------|-----------------------------------------------|
+| ctrl+shift+d | add datetime stamp to mlog(%Y-%m-%d %H:%M:%S) |
+| ctrl+d       | add date stamp to mlog(%Y-%m-%d %H:%M)        |
+| ctrl+shift+t | add time stamp to mlog(%H:%M:%S)              |
+| alt+1        | translate this item state to todo             |
+| alt+2        | translate this item state to next             |
+| alt+3        | translate this item state to work             |
+| alt+4        | translate this item state to done             |
+| alt+5        | translate this item state to reopen           |
+
+
+### Other ###
+
+| Snippet | Aim                                                                                                                                                                                                                | Hot word | Hot key | Default content                                                                                                                                                                                                                                                                          |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| INIT    | After mlog file created, this snippet should generate as file description. this snippet supported semantic description、category、author、link、version and so on，for human or matchine to maintenance easy late. | init     |         | /**   *----------------------------------------//   * mlog description   *----------------------------------------//   *@category,mlogcategory[Study,Work,School,Family...]   *@author,mlog author,who write this log   *@link,contact   *@version,mlog version   *@stamp,what time? **/ |
