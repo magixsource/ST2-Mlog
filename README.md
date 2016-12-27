@@ -52,10 +52,10 @@ English
 
 | Snippet | 应用场景                   | 快速录入  | 快捷键 | 默认内容                        |
 |---------|----------------------------|-----------|--------|---------------------------------|
-| TODO    | 标识事项需要被完成         | td|TODO   |        | ** TODO,what do to ?            |
-| NEXT    | 标识事项需要接下来立即完成 | nt|NEXT   |        | ** NEXT,what to do next ?       |
-| WORK    | 标识事项正在被处理         | wk|WORK   |        | ** WORK,what to do in work?     |
-| DONE    | 标识事项已完成             | done|DONE |        | ** DONE,what time ?,what done?. |
+| TODO    | 标识事项需要被完成         | td,TODO   |        | ** TODO,what do to ?            |
+| NEXT    | 标识事项需要接下来立即完成 | nt,NEXT   |        | ** NEXT,what to do next ?       |
+| WORK    | 标识事项正在被处理         | wk,WORK   |        | ** WORK,what to do in work?     |
+| DONE    | 标识事项已完成             | done,DONE |        | ** DONE,what time ?,what done?. |
 
 
 
@@ -63,9 +63,9 @@ English
 
 | Snippet | 应用场景                    | 快速录入   | 快捷键 | 默认内容                                   |
 |---------|-----------------------------|------------|--------|--------------------------------------------|
-| Delay   | 标识BUG被阻塞，应当延迟处理 | dl|Delay   |        | /* bug number */,Delay /* your commit */   |
-| Fixed   | 标识BUG已被开发人员修复     | fx|Fixed   |        | /* bug number */,Fixed /* your commit */   |
-| Refused | 标识BUG已被开发人员拒绝     | rf|Refused |        | /* bug number */,Refused /* your commit */ |
+| Delay   | 标识BUG被阻塞，应当延迟处理 | dl,Delay   |        | /* bug number */,Delay /* your commit */   |
+| Fixed   | 标识BUG已被开发人员修复     | fx,Fixed   |        | /* bug number */,Fixed /* your commit */   |
+| Refused | 标识BUG已被开发人员拒绝     | rf,Refused |        | /* bug number */,Refused /* your commit */ |
 
 
 
@@ -76,16 +76,16 @@ Personal Bussiness domain
 
 | Snippet | Aim                                              | Hot word  | Hot key | Default content                 |
 |---------|--------------------------------------------------|-----------|---------|---------------------------------|
-| TODO    | mark this item should to do as soon as possiable | td|TODO   |         | ** TODO,what do to ?            |
-| NEXT    | mark this item must to do next                   | nt|NEXT   |         | ** NEXT,what to do next ?       |
-| WORK    | mark this item is processing                     | wk|WORK   |         | ** WORK,what to do in work?     |
-| DONE    | mark this item has finished                      | done|DONE |         | ** DONE,what time ?,what done?. |
+| TODO    | mark this item should to do as soon as possiable | td,TODO   |         | ** TODO,what do to ?            |
+| NEXT    | mark this item must to do next                   | nt,NEXT   |         | ** NEXT,what to do next ?       |
+| WORK    | mark this item is processing                     | wk,WORK   |         | ** WORK,what to do in work?     |
+| DONE    | mark this item has finished                      | done,DONE |         | ** DONE,what time ?,what done?. |
 
 
 Software development domain
 
 | Snippet | Aim                                      | Hot word   | Hot key | Default content                            |
 |---------|------------------------------------------|------------|---------|--------------------------------------------|
-| Delay   | mark this BUG is blocked,should be delay | dl|Delay   |         | /* bug number */,Delay /* your commit */   |
-| Fixed   | mark this BUG has fixed                  | fx|Fixed   |         | /* bug number */,Fixed /* your commit */   |
-| Refused | mark this BUG has refused by developer   | rf|Refused |         | /* bug number */,Refused /* your commit */ |
+| Delay   | mark this BUG is blocked,should be delay | dl,Delay   |         | /* bug number */,Delay /* your commit */   |
+| Fixed   | mark this BUG has fixed                  | fx,Fixed   |         | /* bug number */,Fixed /* your commit */   |
+| Refused | mark this BUG has refused by developer   | rf,Refused |         | /* bug number */,Refused /* your commit */ |
