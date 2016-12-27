@@ -32,6 +32,8 @@ ST2-Mlog最初的几个`snippet`是`TODO`、`NEXT`、`WORK`、`DONE`、`Fixed`�
 4. 新建文件并以.mlog结尾
 5. 改主题色调到`Mlog`
 6. 完成
+
+
 English
 -
 1. Download from Github
@@ -40,6 +42,7 @@ English
 4. Create a new file with stuff `.mlog`
 5. Change color scheme to `Mlog`
 6. Done
+
 
 使用指引(Usage)
 =
@@ -57,6 +60,7 @@ English
 
 
 软件开发领域
+
 | Snippet | 应用场景                    | 快速录入   | 快捷键 | 默认内容                                   |
 |---------|-----------------------------|------------|--------|--------------------------------------------|
 | Delay   | 标识BUG被阻塞，应当延迟处理 | dl|Delay   |        | /* bug number */,Delay /* your commit */   |
@@ -64,8 +68,10 @@ English
 | Refused | 标识BUG已被开发人员拒绝     | rf|Refused |        | /* bug number */,Refused /* your commit */ |
 
 
+
 English
 -
+
 Personal Bussiness domain
 
 | Snippet | Aim                                              | Hot word  | Hot key | Default content                 |
