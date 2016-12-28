@@ -22,6 +22,17 @@ ST2-Mlog最初的几个`snippet`是`TODO`、`NEXT`、`WORK`、`DONE`、`Fixed`�
 
 应用ST2-Mlog前，我参与的项目正处在开发未段，各种测试不断攻来，随之而来的是满天飞的BUG记录。上线时间点就在眼前，事情变得有压力起来，有的时候脑子真的很混乱。于是花了一个下午熟悉了Sublime Text2的开发指南，开始开发ST2-Mlog，于是才有以上的`snippet`。也正是以上这几个`snippet`在后面的这段富有压力的开发工作中，真的发挥了难以预见的作用，使得我在后面的软件开发生涯，莫名的产生了对ST2-Mlog的依赖。正是由于自己在这上面得到了很大的益处，才想要分享给大家，如果它同样使大家更高效的工作和生活，那便真的太棒了。
 
+示例(ShowCase)
+=
+Personal bussiness and development domain
+-
+![dev-works](https://raw.githubusercontent.com/wiki/magixsource/ST2-Mlog/images/devworks.gif)
+
+Log warning domain
+-
+![dev-works](https://raw.githubusercontent.com/wiki/magixsource/ST2-Mlog/images/devlogs.gif)
+
+
 安装（Install）
 =
 中文
